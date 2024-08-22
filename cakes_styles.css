@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f2;
+}
+
+header {
+    background-color: #d2691e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+#cakes h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cake-item {
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cake-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cake-item h3 {
+    margin-top: 15px;
+    color: #d2691e;
+}
+
+.cake-item p {
+    margin: 10px 0;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #d2691e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#previous-button {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #d2691e;
+    border: 2px solid #d2691e;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#previous-button:hover {
+    background-color: #d2691e;
+    color: white;
+}
+#bread h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bread-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bread-item {
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bread-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bread-item h3 {
+    margin-top: 15px;
+    color: #d2691e;
+}
+
+.bread-item p {
+    margin: 10px 0;
+    color: #333;
+}
+
+#pastries h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pastry-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pastry-item {
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pastry-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pastry-item h3 {
+    margin-top: 15px;
+    color: #d2691e;
+}
+
+.pastry-item p {
+    margin: 10px 0;
+    color: #333;
+}
